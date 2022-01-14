@@ -1,17 +1,20 @@
 ## Productivización de un modelo de Machine Learning
 Author: Judit Lozano Gondolbeu
 
-**Instalación desde Docker:**
-Ejecutar los comandos:
-
-1. docker pull juditgoes/practica_productivizacion:1.0
-2. docker run -p 5000:80 juditgoes/practica_productivizacion:1.0
-3. Acceder a la aplicación mediante cualquier explorador web: http://localhost:5000
+**Instalación con Docker:**
+Comandos desde el terminal:
+~~~ 
+docker pull juditgoes/practica_productivizacion:1.0 
+~~~
+~~~
+docker run -p 5000:80 juditgoes/practica_productivizacion:1.0
+~~~
+Por último, para acceder a la aplicación desde cualquier explorador web: http://localhost:5000
 
 
 **Github repository:**
 
-https://github.com/judit-lozano/project_car_accidents
+https://github.com/judit-lozano/productivizacion
 
 **Descripción:**
 
