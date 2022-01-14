@@ -1,5 +1,13 @@
-## Car Accidents Project - Machine Learning
+## Productivización de un modelo de Machine Learning
 Author: Judit Lozano Gondolbeu
+
+**Instalación desde Docker:**
+Ejecutar los comandos:
+
+1. docker pull juditgoes/practica_productivizacion:1.0
+2. docker run -p 5000:80 juditgoes/practica_productivizacion:1.0
+3. Acceder a la aplicación mediante cualquier explorador web: http://localhost:5000
+
 
 **Github repository:**
 
@@ -7,11 +15,7 @@ https://github.com/judit-lozano/project_car_accidents
 
 **Descripción:**
 
-Proyecto de machine learning con el objetivo de encontrar un modelo que prediga, dado un conductor que sufre un accidente, si habrá fallecimientos o no.
-
-Fundamental como posible herramienta para el cálculo del capital preciso para que las compañias aseguradoras en este caso puedan hacer frente a las coberturas indemnizatorias por accidentes donde se estime que pueda haber algún fallecido.
-
-Los datos para la realización de este estudio se encuentran disponibles en la web: https://www.kaggle.com/tbsteal/canadian-car-accidents-19942014?select=drivingLegend.pdf
+Simulación de una puesta en producción de un modelo de Machine Learning mediante una API y un dashboard de monitorización.
 
 
 Master in Data Science
